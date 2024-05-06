@@ -1,0 +1,53 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f2ff; /* Light indigo background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow property */
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.tag {
+  font-weight: bold;
+  color: indigo; /* Indigo text color */
+}
+
+h1 {
+  color: indigo; /* Indigo text color */
+}
+
+input[type="text"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #45a049;
+  animation-duration: 20s;
+}
+
+.pretag{
+  display: flex;
+  justify-content: center;
+  color: #45a049;
+
+}
